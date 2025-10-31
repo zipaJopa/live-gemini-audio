@@ -1,0 +1,25 @@
+{
+  "name": "live-gemini-audio",
+  "version": "1.0.0",
+  "description": "Live audio streaming with Gemini AI",
+  "main": "live-audio.js",
+  "scripts": {
+    "start": "node live-audio.js",
+    "live": "node live-audio.js",
+    "deploy": "git add . && git commit -m '🎙️ Live update' && git push origin main"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.15.0",
+    "node-record-lpcm16": "^1.0.1"
+  },
+  "keywords": [
+    "gemini",
+    "audio",
+    "live",
+    "streaming",
+    "ai",
+    "voice"
+  ],
+  "author": "Live Audio Bot",
+  "license": "MIT"
+}
